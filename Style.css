@@ -1,0 +1,213 @@
+body{
+    display: flex;
+    flex-direction: column;
+    width: 89vw;
+    height: 80vh;
+    background-color: rgb(218, 180, 130);
+}
+
+header{
+    display: flex;
+    width: 105%;
+    height: 19vh;
+    background-color: rgb(175, 145, 105);
+    box-shadow: 5px 5px 8px rgb(66, 55, 40);
+}
+
+.titulo{
+        display: flex;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 50px;
+        font-weight: bold;
+        position: absolute;
+        top: 6.5%;
+        left: 16%;
+        text-shadow: 5px 5px 7px #000;
+    }
+
+    .contatoHeader{
+        padding-right: 20px;
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+        color: white;
+        text-shadow: 2px 2px 2px rgb(37, 37, 37);
+        position: absolute;
+        top: 10%;
+        right: 6%;
+    }
+
+    .contatoHeader1{
+        padding-right: 20px;
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+        color: white;
+        text-shadow: 2px 2px 2px rgb(37, 37, 37);
+        position: absolute;
+        top: 10%;
+        right: 20%;
+    }
+
+nav{
+    display: flex;
+    width: 101%;
+    height: 2vh;
+    background-color: rgb(175, 145, 105);
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;  
+    padding-right: 30px;  
+}
+
+    .textoNav1{
+        color: white;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        transition: 0.3s;
+    }
+
+    .textoNav2{
+        color: white;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        transition: 0.3s;
+    }
+
+    .textoNav3{
+        color: white;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        transition: 0.3s;
+    }
+
+    .textoNav1:hover{
+        transform: translateY(-5px);
+        box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+    }
+
+    .textoNav2:hover{
+        transform: translateY(-5px);
+        box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+    }
+
+    .textoNav3:hover{
+        transform: translateY(-5px);
+        box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+    }
+
+main{
+    display: flex;
+    width: 100%;
+    height: 69vh;
+    justify-content: space-around;
+}
+
+aside{
+        display: flex;
+        flex-direction: column;
+        height: 80vh;
+        width: 15%;
+        align-items: center;
+    }
+
+    .imgAside{
+            width: 10vw;
+            height: 15vh;
+            padding: 10px;
+            margin: 3vh;
+            background-color: rgb(175, 145, 105);
+        }
+
+        article{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: 400px;
+    }
+
+    .textoArticle{
+            background-color: rgb(175, 145, 105);
+            padding: 20px;
+            margin: 30px;
+            font-size: 22px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+footer{
+    display: flex;
+    height: 4vh;
+    width: 98vw;
+    background-color: rgb(175, 145, 105);
+    justify-content: center;
+    align-items: center;
+}
+
+.textoFooter{
+        font-size: 15px;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 10px;
+    }
+
+    .tituloPag1{
+    display: flex;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 5px 5px 7px #000;
+    position: absolute;
+    top: -1%;
+    left: 30%;
+}
+
+.imgPag{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(175, 145, 105);
+    padding: 20px;
+}
+
+.textoPag{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 105%;
+    height: 200px;
+}
+
+.imagensPag{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    width: 105%;
+    height: 250px;
+}
+
+.voltar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(175, 145, 105);
+    width: 70px;
+    height: 30px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    position: absolute;
+    top: 120%;
+}
+
+.voltar:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+.HeaderP{
+    display: flex;
+    width: 97vw;
+    height: 10vh;
+    background-color: rgb(175, 145, 105);
+    box-shadow: 5px 5px 8px rgb(66, 55, 40);
+}
